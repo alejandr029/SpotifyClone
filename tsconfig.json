@@ -1,3 +1,31 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": "C:/Users/X1 Yoga/Desktop/ProyectPersonal/Astro/SpotifyClone",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "astro/*": [
+        "./src/astro/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/icons/*": [
+        "./src/Assets/icons/*"
+      ],
+      "@/images/*": [
+        "./src/Assets/images/*"
+      ],
+      "@/data/*": [
+        "./src/data/*"
+      ],
+      "@/store/*":[
+        "./src/store/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
 }
